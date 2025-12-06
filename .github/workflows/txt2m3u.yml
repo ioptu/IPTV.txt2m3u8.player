@@ -21,6 +21,8 @@ jobs:
           ls -al
     - name: CommitAndPush
       run: |
+        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        echo "REPO_NAME: ${{ github.repository_name }}"
         git config --global user.email "github@github.com"
         git config --global user.name "Github Actions"
         
