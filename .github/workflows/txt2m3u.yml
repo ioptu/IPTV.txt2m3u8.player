@@ -24,12 +24,8 @@ jobs:
         git config --global user.email "github@github.com"
         git config --global user.name "Github Actions"
         
-        # 克隆仓库（使用 HTTPS + TOKEN 避免权限问题）
-        git clone "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
-        cd ${{ github.repository_name }} || exit 1  # 强制失败时退出
-
         # 后续操作...
-        mv ../output.m3u ./t2m_output.m3u
+        mv output.m3u t2m_output.m3u
         git add .
         if git diff --cached --quiet; then
           echo "No changes to commit."
