@@ -11,21 +11,21 @@ def extract_group_title(info_line):
         return match.group(1).strip()
     return ""
 
-# --- 辅助函数：解析单个 M3U 内容 ---
-# 仍然返回 order_list, channels_map, header，但 channels_map 现在包含 group 信息
+# --- 辅助函数：解析单个 M3U 内容 (使用复合键 (频道名, Group) 保证独立性) ---
 def parse_single_m3u(m3u_content):
     if not m3u_content:
         return [], {}, ""
         
     lines = [line.strip() for line in m3u_content.strip().split('\n') if line.strip()]
     
-    # channels_map 结构: { "频道名称": {"info": "#EXTINF...", "urls": set(), "group": "..."} }
+    # channels_map 结构: { ("频道名称", "Group-Title"): {"info": "#EXTINF...", "urls": set()} }
     channels_map = {}
-    order_list = []
+    order_list = [] # 包含 ("频道名称", "Group-Title") 复合键
     header = ""
     
     current_info_line = None
     current_channel_name = None
+    current_group_title = None
     
     for line in lines:
         if line.startswith('#EXTM3U'):
@@ -37,26 +37,33 @@ def parse_single_m3u(m3u_content):
             current_info_line = line
             name_match = re.search(r',(.+)$', line)
             current_channel_name = name_match.group(1).strip() if name_match else None
-            group_title = extract_group_title(current_info_line)
+            current_group_title = extract_group_title(current_info_line)
             
             if current_channel_name:
-                if current_channel_name not in channels_map:
-                    channels_map[current_channel_name] = {
+                # 使用复合键 (Name, Group) 确保独立性
+                channel_key = (current_channel_name, current_group_title)
+                
+                if channel_key not in channels_map:
+                    channels_map[channel_key] = {
                         "info": current_info_line, 
                         "urls": set(),
-                        "group": group_title
                     }
-                    order_list.append(current_channel_name)
+                    order_list.append(channel_key)
                 else:
-                    channels_map[current_channel_name]["info"] = current_info_line
-                    channels_map[current_channel_name]["group"] = group_title
+                    # 频道实体已存在（名称和分组都相同），更新信息
+                    channels_map[channel_key]["info"] = current_info_line
             
         elif (line.startswith('http://') or line.startswith('https://')):
-            if current_channel_name and current_channel_name in channels_map:
-                channels_map[current_channel_name]["urls"].add(line)
+            # URL 属于最近解析成功的频道实体
+            if current_channel_name and current_group_title is not None:
+                channel_key = (current_channel_name, current_group_title)
+                if channel_key in channels_map:
+                    channels_map[channel_key]["urls"].add(line)
         
         else:
+            # 遇到无关行，重置解析状态
             current_channel_name = None
+            current_group_title = None
 
     return order_list, channels_map, header
 
@@ -64,7 +71,7 @@ def parse_single_m3u(m3u_content):
 # --- 主函数：实现 Group-Title 优先的相对插入排序逻辑 ---
 def main():
     parser = argparse.ArgumentParser(
-        description="合并多个M3U文件的内容，按 Group-Title 排序，并在组内使用相对插入排序。",
+        description="合并M3U文件，使用 (频道名, Group-Title) 复合键保证独立性，并进行 Group-Title 优先的相对插入排序。",
         formatter_class=argparse.RawTextHelpFormatter
     )
     parser.add_argument('-i', '--input', type=str, nargs='+', required=True, help="一个或多个输入M3U文件的路径")
@@ -78,7 +85,7 @@ def main():
     # 主数据结构：
     # final_channels_data = {
     #     "group_name": {
-    #         "channels": { "频道名": {"info": "#EXTINF...", "urls": set()} },
+    #         "channels": { "频道名": {"info": "#EXTINF...", "urls": set()} }, # 注意：这里的键是频道名字符串
     #         "order_list": ["频道名1", "频道名2", ...] # 该分组的内部顺序列表
     #     }
     # }
@@ -100,24 +107,26 @@ def main():
             with open(input_file, 'r', encoding='utf-8') as f:
                 content = f.read()
                 
+            # current_order_list 包含 (Name, Group) 复合键
+            # current_map 包含 { (Name, Group): {"info":..., "urls":...} }
             current_order_list, current_map, header = parse_single_m3u(content)
             
             if not final_header and header:
                 final_header = header
             
-            # 针对当前文件中的每个 Group-Title 执行相对插入逻辑
-            
-            # A. 将当前文件的所有频道按 Group-Title 分组
+            # A. 将当前文件解析出的频道按 Group-Title 再次分组
             current_groups = {}
-            for channel_name in current_order_list:
-                data = current_map[channel_name]
-                group = data["group"]
+            for channel_key in current_order_list:
+                _, group = channel_key # 仅提取 Group-Title
+                data = current_map[channel_key]
+                
                 if group not in current_groups:
                     current_groups[group] = []
-                current_groups[group].append(channel_name)
+                # 存储复合键和数据，以便后续处理
+                current_groups[group].append((channel_key, data)) 
 
             # B. 遍历当前文件中的 Group-Title，执行合并和相对插入
-            for group_title, current_group_channels in current_groups.items():
+            for group_title, current_group_items in current_groups.items():
                 
                 # 1. 初始化 Group 数据
                 if group_title not in final_channels_data:
@@ -130,39 +139,32 @@ def main():
                 
                 # 2. 执行组内相对插入排序
                 last_known_channel_index = -1
-                
-                # 预扫描：找到当前文件中的频道在 final_group_order 中最后出现的位置
-                # 注意：这里我们不再进行预扫描，因为组内顺序是动态插入的。
-                # last_known_channel_index 将追踪上一个已处理/已插入的频道位置。
 
-                for channel_name in current_group_channels:
-                    current_channel_data = current_map[channel_name]
-
+                for channel_key, current_channel_data in current_group_items:
+                    channel_name, _ = channel_key
+                    
                     if channel_name in final_group_channels:
-                        # 频道已存在: A. 合并 URL 并更新属性
+                        # 频道已存在于这个 Group 中: A. 合并 URL 并更新属性
                         
-                        # 更新 info/urls
                         final_group_channels[channel_name]["info"] = current_channel_data["info"]
                         final_group_channels[channel_name]["urls"].update(current_channel_data["urls"])
                         
                         # 更新 last_known_channel_index
                         try:
-                            # 找到该频道在 Group Order 列表中的位置
                             last_known_channel_index = final_group_order.index(channel_name)
                         except ValueError:
-                            # 理论上不会发生，但以防万一
                             pass
                             
                     else:
-                        # 频道是新的: B. 相对插入
+                        # 频道是新的 Group 实体: B. 相对插入
                         
-                        # 1. 将新频道添加到 Group Map
+                        # 1. 将新频道添加到 Group Map (使用 channel_name 作为键)
                         final_group_channels[channel_name] = {
                             "info": current_channel_data["info"], 
-                            "urls": current_channel_data["urls"] # 直接赋值集合
+                            "urls": current_channel_data["urls"]
                         }
                         
-                        # 2. 插入到 order_list 中，位置是 last_known_channel_index + 1
+                        # 2. 插入到 order_list 中 (使用 channel_name)
                         insert_index = last_known_channel_index + 1
                         final_group_order.insert(insert_index, channel_name)
                         
@@ -180,7 +182,6 @@ def main():
         if group_title in final_channels_data:
             group_data = final_channels_data[group_title]
             
-            # 遍历该 Group 内部的频道顺序
             for name in group_data["order_list"]:
                 if name in group_data["channels"]:
                     data = group_data["channels"][name]
