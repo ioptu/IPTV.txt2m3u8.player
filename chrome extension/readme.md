@@ -14,5 +14,5 @@ https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-manage-extensions-po
 一些http开头的源播放失败可能与浏览器开启了自动https有关 
 
 
-##.m3u8
+## .m3u8
 目前chrome已经原生支持播放.m3u8的链接
