@@ -10,4 +10,5 @@
 ·https://gh-proxy.org/github.com/ioptu/IPTV.txt2m3u.player/raw/refs/heads/main/huuc_ipv6.m3u
 
 ·https://gh-proxy.org/github.com/ioptu/IPTV.txt2m3u.player/raw/refs/heads/main/sh.lnott.top.m3u
+
 （Github文件加速，将GitHub链接转换为多区域加速链接，解决GitHub访问慢、下载失败等问题 ）
