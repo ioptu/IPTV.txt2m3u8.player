@@ -40,7 +40,7 @@ jobs:
 
           wget https://github.com/gitgordon85/IPTV-Check/raw/refs/heads/master/output/ipv4/result.m3u -O tv1.m3u  -t 2 --waitretry=5
           python ./scripts/extract.py --input tv1.m3u --output tv1op.m3u --eoru ',qqqtv'        
-          
+          python ./scripts/m3u_merger.py -i tv1op.m3u -o tv1op_merged.m3u
           
           python ./scripts/m3u_merger.py -i t2m_output.m3u -o t2merged.m3u
 
@@ -65,7 +65,7 @@ jobs:
         mv ../t2output.m3u ./huuc_ipv6.m3u
         mv ../t2merged.m3u ./t2m_output_merged.m3u
         mv ../tv1op.m3u ./yp.qqqtv.top.m3u
-        
+        mv ../tv1op_merged.m3u  ./yp.qqqtv.top_merged.m3u
         git add .
         if git diff --cached --quiet; then
           echo "No changes to commit."
