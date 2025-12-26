@@ -43,7 +43,7 @@ jobs:
           wget https://github.com/xiaoran29/core/raw/refs/heads/main/output/lite.m3u -O tv1.m3u  -t 2 --waitretry=5
           python ./scripts/extract.py --input tv1.m3u --output tv1op.m3u --eoru ',qqqtv'        
           python ./scripts/m3u_merger.py -i tv1op.m3u -o tv1op_merged.m3u
-          python ./url_sorter.py -i tv1op_merged.m3u -o tv1op_ms.m3u
+          python ./url_sorter.py -i tv1op_merged.m3u -o tv1op_ms.m3u -k 'HD&auth=666858,auth=66615415'
 
           
 
