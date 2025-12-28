@@ -80,6 +80,8 @@ http://yp.qqqtv.top/1/api.php?id=CCTV-17HD&auth=666858
 http://yp.qqqtv.top/bc/bc.php?id=CCTV-17+%E5%86%9C%E4%B8%9A%E5%86%9C%E6%9D%91&auth=66615415
 http://yp.qqqtv.top/1/api.php?id=CCTV-17%E5%86%9C%E4%B8%9A%E5%86%9C%E6%9D%91&auth=666858
 http://yp.qqqtv.top/1/api.php?id=CCTV-17&auth=666858
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://live.fanmingming.cn/tv/CCTV4K.png" group-title="🌐央视频道",CCTV4K
+http://yp.qqqtv.top/1/api.php?id=CCTV-4K%E8%B6%85%E9%AB%98%E6%B8%85&auth=666858
 #EXTINF:-1 tvg-name="CCTV8K" tvg-logo="https://live.fanmingming.cn/tv/CCTV8K.png" group-title="🌐央视频道",CCTV8K
 http://yp.qqqtv.top/1/api.php?id=CCTV-8K%E8%B6%85%E9%AB%98%E6%B8%85&auth=666858
 #EXTINF:-1 group-title="🌐央视频道",CCTV书画
@@ -110,8 +112,6 @@ http://yp.qqqtv.top/1/api.php?id=CCTV-%E7%AC%AC%E4%B8%80%E5%89%A7%E5%9C%BA&auth=
 http://yp.qqqtv.top/1/api.php?id=CCTV-%E9%A3%8E%E4%BA%91%E5%89%A7%E5%9C%BA&auth=666858
 #EXTINF:-1 group-title="🌐央视频道",CCTV怀旧剧场
 http://yp.qqqtv.top/1/api.php?id=CCTV-%E6%80%80%E6%97%A7%E5%89%A7%E5%9C%BA&auth=666858
-#EXTINF:-1 group-title="🌐央视频道",CCTV-
-http://yp.qqqtv.top/1/api.php?id=CCTV-4K%E8%B6%85%E9%AB%98%E6%B8%85&auth=666858
 #EXTINF:-1 group-title="🌐央视频道",CCTV-卫生健康
 http://yp.qqqtv.top/1/api.php?id=CCTV-%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7&auth=666858
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.cn/tv/北京卫视.png" group-title="📡卫视频道",北京卫视
@@ -131,7 +131,6 @@ http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86&auth=66685
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://live.fanmingming.cn/tv/广东卫视.png" group-title="📡卫视频道",广东卫视
 http://yp.qqqtv.top/bc/bc.php?id=%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86&auth=66615415
 http://yp.qqqtv.top/1/api.php?id=%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86&auth=666858
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%BF%E4%B8%9C4K%E8%B6%85%E9%AB%98%E6%B8%85&auth=666858
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://live.fanmingming.cn/tv/深圳卫视.png" group-title="📡卫视频道",深圳卫视
 http://yp.qqqtv.top/1/api.php?id=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86HD&auth=666858
 http://yp.qqqtv.top/1/api.php?id=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86&auth=666858
@@ -279,8 +278,6 @@ http://yp.qqqtv.top/1/api.php?id=%E8%BF%9E%E5%B1%B1%E7%BB%BC%E5%90%88&auth=66685
 http://yp.qqqtv.top/1/api.php?id=%E6%BD%AE%E9%98%B3%E7%BB%BC%E5%90%88&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",南京教科
 http://yp.qqqtv.top/1/api.php?id=%E5%8D%97%E4%BA%AC%E6%95%99%E7%A7%91&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",南京新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%8D%97%E4%BA%AC%E5%8D%81%E5%85%AB%E7%94%9F%E6%B4%BB&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",句容党建
 http://yp.qqqtv.top/1/api.php?id=%E5%8F%A5%E5%AE%B9%E5%85%9A%E5%BB%BA%E9%A2%91%E9%81%93&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",句容生活
@@ -323,8 +320,6 @@ http://yp.qqqtv.top/1/api.php?id=%E7%9D%A2%E5%AE%81%E4%B8%89%E5%86%9C%E9%A2%91%E
 http://yp.qqqtv.top/1/api.php?id=%E7%9D%A2%E5%AE%81%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",苏州文化生活
 http://yp.qqqtv.top/1/api.php?id=%E8%8B%8F%E5%B7%9E%E6%96%87%E5%8C%96%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",苏州新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%8B%8F%E5%B7%9E4K%E9%A2%91%E9%81%93&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",苏州生活资讯
 http://yp.qqqtv.top/1/api.php?id=%E8%8B%8F%E5%B7%9E%E7%94%9F%E6%B4%BB%E8%B5%84%E8%AE%AF&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",苏州社会经济
@@ -341,8 +336,6 @@ http://yp.qqqtv.top/1/api.php?id=%E9%AB%98%E9%82%AE%E7%BB%BC%E5%90%88%E9%A2%91%E
 http://yp.qqqtv.top/1/api.php?id=%E5%BC%A0%E5%AE%B6%E6%B8%AF%E6%B0%91%E7%94%9F%E9%A2%91%E9%81%93&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",滨海新闻综合
 http://yp.qqqtv.top/1/api.php?id=%E6%BB%A8%E6%B5%B7%E6%96%B0%E9%97%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",浙江钱江都市
-http://yp.qqqtv.top/1/api.php?id=%E6%B5%99%E6%B1%9F%E9%92%B1%E6%B1%9F%E9%83%BD%E5%B8%82&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",浙江经济生活
 http://yp.qqqtv.top/1/api.php?id=%E6%B5%99%E6%B1%9F%E7%BB%8F%E6%B5%8E%E7%94%9F%E6%B4%BB&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",浙江新闻
@@ -492,471 +485,13 @@ http://yp.qqqtv.top/1/api.php?id=%E7%9C%89%E5%B1%B1%E6%96%87%E6%97%85%E4%B9%A1%E
 http://yp.qqqtv.top/1/api.php?id=%E5%AE%9C%E5%AE%BE%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",资阳新闻综合
 http://yp.qqqtv.top/1/api.php?id=%E8%B5%84%E9%98%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",简阳新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E7%AE%80%E9%98%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",双流综合
-http://yp.qqqtv.top/1/api.php?id=%E5%8F%8C%E6%B5%81%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",仁寿综合
-http://yp.qqqtv.top/1/api.php?id=%E4%BB%81%E5%AF%BF%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",郑州新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%83%91%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",郑州文体旅游
-http://yp.qqqtv.top/1/api.php?id=%E9%83%91%E5%B7%9E%E6%96%87%E4%BD%93%E6%97%85%E6%B8%B8&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",开封新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%BC%80%E5%B0%81%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",焦作公共
-http://yp.qqqtv.top/1/api.php?id=%E7%84%A6%E4%BD%9C%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",平顶山新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%B3%E9%A1%B6%E5%B1%B1%E6%96%B0%E9%97%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",平顶山教育
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%B3%E9%A1%B6%E5%B1%B1%E6%95%99%E8%82%B2&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",驻马店新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%A9%BB%E9%A9%AC%E5%BA%97%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",驻马店公共
-http://yp.qqqtv.top/1/api.php?id=%E9%A9%BB%E9%A9%AC%E5%BA%97%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",驻马店科教
-http://yp.qqqtv.top/1/api.php?id=%E9%A9%BB%E9%A9%AC%E5%BA%97%E7%A7%91%E6%95%99%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",漯河公共
-http://yp.qqqtv.top/1/api.php?id=%E6%BC%AF%E6%B2%B3%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",鹤壁新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%B9%A4%E5%A3%81%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",巩义新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%B7%A9%E4%B9%89%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宜阳综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%9C%E9%98%B3%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",林州综合
-http://yp.qqqtv.top/1/api.php?id=%E6%9E%97%E5%B7%9E%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",汤阴综合
-http://yp.qqqtv.top/1/api.php?id=%E6%B1%A4%E9%98%B4%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",内黄综合
-http://yp.qqqtv.top/1/api.php?id=%E5%86%85%E9%BB%84%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",卫辉综合
-http://yp.qqqtv.top/1/api.php?id=%E5%8D%AB%E8%BE%89%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",延津综合
-http://yp.qqqtv.top/1/api.php?id=%E5%BB%B6%E6%B4%A5%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",长垣综合
-http://yp.qqqtv.top/1/api.php?id=%E9%95%BF%E5%9E%A3%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",孟州综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AD%9F%E5%B7%9E%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",温县综合
-http://yp.qqqtv.top/1/api.php?id=%E6%B8%A9%E5%8E%BF%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宝丰综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%9D%E4%B8%B0%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",鲁山综合
-http://yp.qqqtv.top/1/api.php?id=%E9%B2%81%E5%B1%B1%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",郏县综合
-http://yp.qqqtv.top/1/api.php?id=%E9%83%8F%E5%8E%BF%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",卢氏综合
-http://yp.qqqtv.top/1/api.php?id=%E5%8D%A2%E6%B0%8F%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",内乡综合
-http://yp.qqqtv.top/1/api.php?id=%E5%86%85%E4%B9%A1%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",淅川综合
-http://yp.qqqtv.top/1/api.php?id=%E6%B7%85%E5%B7%9D%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",临颍综合
-http://yp.qqqtv.top/1/api.php?id=%E4%B8%B4%E9%A2%8D%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",禹州综合
-http://yp.qqqtv.top/1/api.php?id=%E7%A6%B9%E5%B7%9E%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",鄢陵综合
-http://yp.qqqtv.top/1/api.php?id=%E9%84%A2%E9%99%B5%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",襄城综合
-http://yp.qqqtv.top/1/api.php?id=%E8%A5%84%E5%9F%8E%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",西华综合
-http://yp.qqqtv.top/1/api.php?id=%E8%A5%BF%E5%8D%8E%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",扶沟综合
-http://yp.qqqtv.top/1/api.php?id=%E6%89%B6%E6%B2%9F%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",太康综合
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%AA%E5%BA%B7%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",确山综合
-http://yp.qqqtv.top/1/api.php?id=%E7%A1%AE%E5%B1%B1%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",西平综合
-http://yp.qqqtv.top/1/api.php?id=%E8%A5%BF%E5%B9%B3%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",上蔡综合
-http://yp.qqqtv.top/1/api.php?id=%E4%B8%8A%E8%94%A1%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",平舆综合
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%B3%E8%88%86%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",新蔡综合
-http://yp.qqqtv.top/1/api.php?id=%E6%96%B0%E8%94%A1%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",固始综合
-http://yp.qqqtv.top/1/api.php?id=%E5%9B%BA%E5%A7%8B%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",潢川综合
-http://yp.qqqtv.top/1/api.php?id=%E6%BD%A2%E5%B7%9D%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",光山综合
-http://yp.qqqtv.top/1/api.php?id=%E5%85%89%E5%B1%B1%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",新县综合
-http://yp.qqqtv.top/1/api.php?id=%E6%96%B0%E5%8E%BF%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",淮滨综合
-http://yp.qqqtv.top/1/api.php?id=%E6%B7%AE%E6%BB%A8%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖南都市
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8D%97%E9%83%BD%E5%B8%82&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖南经视
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8D%97%E7%BB%8F%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖南电视剧
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8D%97%E7%94%B5%E8%A7%86%E5%89%A7&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖南电影
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8D%97%E7%94%B5%E5%BD%B1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖南爱晚
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8D%97%E7%88%B1%E6%99%9A&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖南娱乐
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8D%97%E5%A8%B1%E4%B9%90&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖南国际
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8D%97%E5%9B%BD%E9%99%85&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖南金鹰纪实
-http://yp.qqqtv.top/1/api.php?id=%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",长沙新闻
-http://yp.qqqtv.top/1/api.php?id=%E9%95%BF%E6%B2%99%E6%96%B0%E9%97%BB%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",长沙政法
-http://yp.qqqtv.top/1/api.php?id=%E9%95%BF%E6%B2%99%E6%94%BF%E6%B3%95%E9%A2%91%E9%81%93&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",重庆科教
 http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E6%96%B0%E9%97%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",重庆社会与法
-http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E7%A4%BE%E4%BC%9A%E4%B8%8E%E6%B3%95&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",重庆文体娱乐
-http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E6%96%87%E4%BD%93%E5%A8%B1%E4%B9%90&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",重庆少儿
-http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E5%B0%91%E5%84%BF&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",重庆新农村
-http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E6%96%B0%E5%86%9C%E6%9D%91&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",重庆汽摩
-http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E6%B1%BD%E6%91%A9&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",重庆红岩文化
-http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E7%BA%A2%E5%B2%A9%E6%96%87%E5%8C%96&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",重庆红叶
-http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E7%BA%A2%E5%8F%B6&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",合川综合
-http://yp.qqqtv.top/1/api.php?id=%E5%90%88%E5%B7%9D%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",巴南综合
-http://yp.qqqtv.top/1/api.php?id=%E5%B7%B4%E5%8D%97%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",天津都市
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%A9%E6%B4%A5%E9%83%BD%E5%B8%82&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",天津体育
 http://yp.qqqtv.top/1/api.php?id=%E5%A4%A9%E6%B4%A5%E4%BD%93%E8%82%B2&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",天津教育
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%A9%E6%B4%A5%E6%95%99%E8%82%B2&auth=666858
-#EXTINF:-1 tvg-name="湖北经视" tvg-logo="https://ghproxy.net/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/assets/logo/湖北经视.png" group-title="🏠地方频道",湖北经视
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8C%97%E7%BB%8F%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖北综合
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8C%97%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖北影视
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8C%97%E5%BD%B1%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖北生活
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8C%97%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",湖北教育
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8C%97%E6%95%99%E8%82%B2&auth=666858
-#EXTINF:-1 tvg-name="湖北垄上" tvg-logo="https://ghproxy.net/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/assets/logo/湖北垄上.png" group-title="🏠地方频道",湖北垄上
-http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8C%97%E5%9E%84%E4%B8%8A&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黄石新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%84%E7%9F%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",十堰新闻
-http://yp.qqqtv.top/1/api.php?id=%E5%8D%81%E5%A0%B0%E6%96%B0%E9%97%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宜昌综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%9C%E6%98%8C%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宜昌旅游生活
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%9C%E6%98%8C%E6%97%85%E6%B8%B8%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",荆门新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%8D%86%E9%97%A8%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",孝感新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AD%9D%E6%84%9F%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",枝江综合
-http://yp.qqqtv.top/1/api.php?id=%E6%9E%9D%E6%B1%9F%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",松滋综合
-http://yp.qqqtv.top/1/api.php?id=%E6%9D%BE%E6%BB%8B%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",赤壁综合
-http://yp.qqqtv.top/1/api.php?id=%E8%B5%A4%E5%A3%81%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",咸宁综合
-http://yp.qqqtv.top/1/api.php?id=%E5%92%B8%E5%AE%81%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",孝感生活
-http://yp.qqqtv.top/1/api.php?id=%E5%AD%9D%E6%84%9F%E7%94%9F%E6%B4%BB%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",恩施文旅
-http://yp.qqqtv.top/1/api.php?id=%E6%81%A9%E6%96%BD%E6%96%87%E6%97%85&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",武汉新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E6%AD%A6%E6%B1%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",武汉文体
-http://yp.qqqtv.top/1/api.php?id=%E6%AD%A6%E6%B1%89%E6%96%87%E4%BD%93%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",武汉科技生活
-http://yp.qqqtv.top/1/api.php?id=%E6%AD%A6%E6%B1%89%E7%A7%91%E6%8A%80%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",武汉电视剧
-http://yp.qqqtv.top/1/api.php?id=%E6%AD%A6%E6%B1%89%E7%94%B5%E8%A7%86%E5%89%A7&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",武汉外语
-http://yp.qqqtv.top/1/api.php?id=%E6%AD%A6%E6%B1%89%E5%A4%96%E8%AF%AD%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",仙桃新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E4%BB%99%E6%A1%83%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",云梦综合
 http://yp.qqqtv.top/1/api.php?id=%E4%BA%91%E6%A2%A6%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",安徽经济生活
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E5%BE%BD%E7%BB%8F%E6%B5%8E%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",安徽影视
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E5%BE%BD%E5%BD%B1%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",安徽公共
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E5%BE%BD%E5%85%AC%E5%85%B1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",家家购物
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%B6%E5%AE%B6%E8%B4%AD%E7%89%A9&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",安徽国际
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E5%BE%BD%E5%9B%BD%E9%99%85&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",蚌埠新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%9A%8C%E5%9F%A0%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",安庆新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E5%BA%86%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",马鞍山新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%A9%AC%E9%9E%8D%E5%B1%B1%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黄山新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%84%E5%B1%B1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",六安新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%85%AD%E5%AE%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宿州新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%BF%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宣城新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%A3%E5%9F%8E%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",福州新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E7%A6%8F%E5%B7%9E%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",福州少儿
-http://yp.qqqtv.top/1/api.php?id=%E7%A6%8F%E5%B7%9E%E5%B0%91%E5%84%BF&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宁德新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%81%E5%BE%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宁德文化旅游
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%81%E5%BE%B7%E6%96%87%E5%8C%96%E6%97%85%E6%B8%B8&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",大连新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%A7%E8%BF%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",大连生活
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%A7%E8%BF%9E%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",鞍山新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%9E%8D%E5%B1%B1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",盘锦新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E7%9B%98%E9%94%A6%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",葫芦岛新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%91%AB%E8%8A%A6%E5%B2%9B%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",金普新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%87%91%E6%99%AE%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",金普生活服务
-http://yp.qqqtv.top/1/api.php?id=%E9%87%91%E6%99%AE%E7%94%9F%E6%B4%BB%E6%9C%8D%E5%8A%A1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",陕西新闻资讯
-http://yp.qqqtv.top/1/api.php?id=%E9%99%95%E8%A5%BF%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",陕西都市青春
-http://yp.qqqtv.top/1/api.php?id=%E9%99%95%E8%A5%BF%E9%83%BD%E5%B8%82%E9%9D%92%E6%98%A5&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",陕西银龄
-http://yp.qqqtv.top/1/api.php?id=%E9%99%95%E8%A5%BF%E9%93%B6%E9%BE%84%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",陕西秦腔
-http://yp.qqqtv.top/1/api.php?id=%E9%99%95%E8%A5%BF%E7%A7%A6%E8%85%94%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",陕西体育休闲
-http://yp.qqqtv.top/1/api.php?id=%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",陕西西部电影
-http://yp.qqqtv.top/1/api.php?id=%E9%99%95%E8%A5%BF%E8%A5%BF%E9%83%A8%E7%94%B5%E5%BD%B1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",陕西乐家购物
-http://yp.qqqtv.top/1/api.php?id=%E9%99%95%E8%A5%BF%E4%B9%90%E5%AE%B6%E8%B4%AD%E7%89%A9&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",铜川新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%93%9C%E5%B7%9D%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",河北经济生活
-http://yp.qqqtv.top/1/api.php?id=%E6%B2%B3%E5%8C%97%E7%BB%8F%E6%B5%8E%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",河北都市
-http://yp.qqqtv.top/1/api.php?id=%E6%B2%B3%E5%8C%97%E9%83%BD%E5%B8%82&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",河北影视剧
-http://yp.qqqtv.top/1/api.php?id=%E6%B2%B3%E5%8C%97%E5%BD%B1%E8%A7%86%E5%89%A7&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",河北少儿科教
-http://yp.qqqtv.top/1/api.php?id=%E6%B2%B3%E5%8C%97%E5%B0%91%E5%84%BF%E7%A7%91%E6%95%99&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",石家庄新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E7%9F%B3%E5%AE%B6%E5%BA%84%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",石家庄都市
-http://yp.qqqtv.top/1/api.php?id=%E7%9F%B3%E5%AE%B6%E5%BA%84%E9%83%BD%E5%B8%82&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",保定生活健康
-http://yp.qqqtv.top/1/api.php?id=%E4%BF%9D%E5%AE%9A%E7%94%9F%E6%B4%BB%E5%81%A5%E5%BA%B7&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",江西都市
-http://yp.qqqtv.top/1/api.php?id=%E6%B1%9F%E8%A5%BF%E9%83%BD%E5%B8%82%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",江西新闻
-http://yp.qqqtv.top/1/api.php?id=%E6%B1%9F%E8%A5%BF%E6%96%B0%E9%97%BB%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",江西风尚购物
-http://yp.qqqtv.top/1/api.php?id=%E6%B1%9F%E8%A5%BF%E9%A3%8E%E5%B0%9A%E8%B4%AD%E7%89%A9&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",南昌资讯
-http://yp.qqqtv.top/1/api.php?id=%E5%8D%97%E6%98%8C%E8%B5%84%E8%AE%AF%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",南昌都市
-http://yp.qqqtv.top/1/api.php?id=%E5%8D%97%E6%98%8C%E9%83%BD%E5%B8%82%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",广西新闻
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%BF%E8%A5%BF%E6%96%B0%E9%97%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",广西综艺旅游
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%BF%E8%A5%BF%E7%BB%BC%E8%89%BA%E6%97%85%E6%B8%B8&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",广西影视
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%BF%E8%A5%BF%E5%BD%B1%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",广西国际
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%BF%E8%A5%BF%E5%9B%BD%E9%99%85&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",广西都市
-http://yp.qqqtv.top/1/api.php?id=%E5%B9%BF%E8%A5%BF%E9%83%BD%E5%B8%82&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",梧州新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E6%A2%A7%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",梧州公共
-http://yp.qqqtv.top/1/api.php?id=%E6%A2%A7%E5%B7%9E%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",防城港新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%98%B2%E5%9F%8E%E6%B8%AF%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",防城港公共
-http://yp.qqqtv.top/1/api.php?id=%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",贵港新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%B4%B5%E6%B8%AF%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",云南都市
 http://yp.qqqtv.top/1/api.php?id=%E4%BA%91%E5%8D%97%E9%83%BD%E5%B8%82&auth=666858
 #EXTINF:-1 group-title="🏠地方频道",云南娱乐
 http://yp.qqqtv.top/1/api.php?id=%E4%BA%91%E5%8D%97%E5%A8%B1%E4%B9%90&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",昆明教育
-http://yp.qqqtv.top/1/api.php?id=%E6%98%86%E6%98%8E%E6%95%99%E8%82%B2&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",山西影视
-http://yp.qqqtv.top/1/api.php?id=%E5%B1%B1%E8%A5%BF%E5%BD%B1%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",山西社会与法治
-http://yp.qqqtv.top/1/api.php?id=%E5%B1%B1%E8%A5%BF%E7%A4%BE%E4%BC%9A%E4%B8%8E%E6%B3%95%E6%B2%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",山西文体生活
-http://yp.qqqtv.top/1/api.php?id=%E5%B1%B1%E8%A5%BF%E6%96%87%E4%BD%93%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",太原新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%AA%E5%8E%9F%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",太原经济生活
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%AA%E5%8E%9F%E7%BB%8F%E6%B5%8E%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",太原文体
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%AA%E5%8E%9F%E6%96%87%E4%BD%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",太原影视
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%AA%E5%8E%9F%E5%BD%B1%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",大同新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%A7%E5%90%8C%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",大同公共
-http://yp.qqqtv.top/1/api.php?id=%E5%A4%A7%E5%90%8C%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",阳泉新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%98%B3%E6%B3%89%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",阳泉科教
-http://yp.qqqtv.top/1/api.php?id=%E9%98%B3%E6%B3%89%E7%A7%91%E6%95%99&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",长治新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%95%BF%E6%B2%BB%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",朔州新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E6%9C%94%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",运城新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%BF%90%E5%9F%8E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",忻州新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%BF%BB%E5%B7%9E%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",忻州公共
-http://yp.qqqtv.top/1/api.php?id=%E5%BF%BB%E5%B7%9E%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",临汾公共
-http://yp.qqqtv.top/1/api.php?id=%E4%B8%B4%E6%B1%BE%E5%85%AC%E5%85%B1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",临汾科教
-http://yp.qqqtv.top/1/api.php?id=%E4%B8%B4%E6%B1%BE%E7%A7%91%E6%95%99&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",吕梁新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%90%95%E6%A2%81%E6%96%B0%E9%97%BB%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黎城综合
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%8E%E5%9F%8E%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黑龙江都市
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%91%E9%BE%99%E6%B1%9F%E9%83%BD%E5%B8%82&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黑龙江影视
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%91%E9%BE%99%E6%B1%9F%E5%BD%B1%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黑龙江文体
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%91%E9%BE%99%E6%B1%9F%E6%96%87%E4%BD%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黑龙江新闻法治
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%91%E9%BE%99%E6%B1%9F%E6%96%B0%E9%97%BB%E6%B3%95%E6%B2%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黑龙江少儿
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%91%E9%BE%99%E6%B1%9F%E5%B0%91%E5%84%BF&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黑龙江农业科教
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%91%E9%BE%99%E6%B1%9F%E5%86%9C%E4%B8%9A%E7%A7%91%E6%95%99&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",哈尔滨新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%93%88%E5%B0%94%E6%BB%A8%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",哈尔滨生活
-http://yp.qqqtv.top/1/api.php?id=%E5%93%88%E5%B0%94%E6%BB%A8%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",哈尔滨影视
-http://yp.qqqtv.top/1/api.php?id=%E5%93%88%E5%B0%94%E6%BB%A8%E5%BD%B1%E8%A7%86&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",齐齐哈尔新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",齐齐哈尔经济法治
-http://yp.qqqtv.top/1/api.php?id=%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E7%BB%8F%E6%B5%8E%E6%B3%95%E6%B2%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",吉林都市
-http://yp.qqqtv.top/1/api.php?id=%E5%90%89%E6%9E%97%E9%83%BD%E5%B8%82&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",吉林生活
-http://yp.qqqtv.top/1/api.php?id=%E5%90%89%E6%9E%97%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",长影
-http://yp.qqqtv.top/1/api.php?id=%E9%95%BF%E5%BD%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",长春综合
-http://yp.qqqtv.top/1/api.php?id=%E9%95%BF%E6%98%A5%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",吉林市新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%90%89%E6%9E%97%E5%B8%82%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",四平新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E5%9B%9B%E5%B9%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",辽源新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%BE%BD%E6%BA%90%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",白城新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E7%99%BD%E5%9F%8E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",松原公共
-http://yp.qqqtv.top/1/api.php?id=%E6%9D%BE%E5%8E%9F%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",双阳综合
-http://yp.qqqtv.top/1/api.php?id=%E5%8F%8C%E9%98%B3%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",九台综合
-http://yp.qqqtv.top/1/api.php?id=%E4%B9%9D%E5%8F%B0%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",德惠综合
-http://yp.qqqtv.top/1/api.php?id=%E5%BE%B7%E6%83%A0%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",永吉综合
-http://yp.qqqtv.top/1/api.php?id=%E6%B0%B8%E5%90%89%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",桦甸综合
-http://yp.qqqtv.top/1/api.php?id=%E6%A1%A6%E7%94%B8%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",磐石综合
-http://yp.qqqtv.top/1/api.php?id=%E7%A3%90%E7%9F%B3%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",舒兰新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%88%92%E5%85%B0%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",双辽综合
-http://yp.qqqtv.top/1/api.php?id=%E5%8F%8C%E8%BE%BD%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",东辽综合
-http://yp.qqqtv.top/1/api.php?id=%E4%B8%9C%E8%BE%BD%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",东丰综合
-http://yp.qqqtv.top/1/api.php?id=%E4%B8%9C%E4%B8%B0%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",辉南新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%BE%89%E5%8D%97%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",柳河综合
-http://yp.qqqtv.top/1/api.php?id=%E6%9F%B3%E6%B2%B3%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",通化县综合
-http://yp.qqqtv.top/1/api.php?id=%E9%80%9A%E5%8C%96%E5%8E%BF%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",集安综合
-http://yp.qqqtv.top/1/api.php?id=%E9%9B%86%E5%AE%89%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",靖宇综合
-http://yp.qqqtv.top/1/api.php?id=%E9%9D%96%E5%AE%87%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",长白新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%95%BF%E7%99%BD%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",龙井综合
-http://yp.qqqtv.top/1/api.php?id=%E9%BE%99%E4%BA%95%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",敦化一套
-http://yp.qqqtv.top/1/api.php?id=%E6%95%A6%E5%8C%96%E4%B8%80%E5%A5%97&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",汪清综合
-http://yp.qqqtv.top/1/api.php?id=%E6%B1%AA%E6%B8%85%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",贵州公共
-http://yp.qqqtv.top/1/api.php?id=%E8%B4%B5%E5%B7%9E%E5%85%AC%E5%85%B1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",贵州影视文艺
-http://yp.qqqtv.top/1/api.php?id=%E8%B4%B5%E5%B7%9E%E5%BD%B1%E8%A7%86%E6%96%87%E8%89%BA&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",贵州大众生活
-http://yp.qqqtv.top/1/api.php?id=%E8%B4%B5%E5%B7%9E%E5%A4%A7%E4%BC%97%E7%94%9F%E6%B4%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",贵州科教健康
-http://yp.qqqtv.top/1/api.php?id=%E8%B4%B5%E5%B7%9E%E7%A7%91%E6%95%99%E5%81%A5%E5%BA%B7&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",安顺公共
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E9%A1%BA%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黔南新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%94%E5%8D%97%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黔南公共
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%94%E5%8D%97%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",黔西南公共
-http://yp.qqqtv.top/1/api.php?id=%E9%BB%94%E8%A5%BF%E5%8D%97%E5%85%AC%E5%85%B1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",习水经济
-http://yp.qqqtv.top/1/api.php?id=%E4%B9%A0%E6%B0%B4%E7%BB%8F%E6%B5%8E%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",甘南藏语
-http://yp.qqqtv.top/1/api.php?id=%E7%94%98%E5%8D%97%E8%97%8F%E8%AF%AD%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",甘南综合
-http://yp.qqqtv.top/1/api.php?id=%E7%94%98%E5%8D%97%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",新疆少儿
-http://yp.qqqtv.top/1/api.php?id=%E6%96%B0%E7%96%86%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",海南新闻
-http://yp.qqqtv.top/1/api.php?id=%E6%B5%B7%E5%8D%97%E6%96%B0%E9%97%BB&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",海南自贸
-http://yp.qqqtv.top/1/api.php?id=%E6%B5%B7%E5%8D%97%E8%87%AA%E8%B4%B8&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",海南公共
-http://yp.qqqtv.top/1/api.php?id=%E6%B5%B7%E5%8D%97%E5%85%AC%E5%85%B1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",海南文旅
-http://yp.qqqtv.top/1/api.php?id=%E6%B5%B7%E5%8D%97%E6%96%87%E6%97%85&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",海南少儿
-http://yp.qqqtv.top/1/api.php?id=%E6%B5%B7%E5%8D%97%E5%B0%91%E5%84%BF&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",三亚新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E4%B8%89%E4%BA%9A%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",宁夏经济
-http://yp.qqqtv.top/1/api.php?id=%E5%AE%81%E5%A4%8F%E7%BB%8F%E6%B5%8E&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",吴忠公共
-http://yp.qqqtv.top/1/api.php?id=%E5%90%B4%E5%BF%A0%E5%85%AC%E5%85%B1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",西宁新闻综合
-http://yp.qqqtv.top/1/api.php?id=%E8%A5%BF%E5%AE%81%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",西宁生活服务
-http://yp.qqqtv.top/1/api.php?id=%E8%A5%BF%E5%AE%81%E7%94%9F%E6%B4%BB%E6%9C%8D%E5%8A%A1&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",西藏影视文化
-http://yp.qqqtv.top/1/api.php?id=%E8%A5%BF%E8%97%8F%E5%BD%B1%E8%A7%86%E6%96%87%E5%8C%96&auth=666858
-#EXTINF:-1 group-title="🏠地方频道",日喀则藏语综合
-http://yp.qqqtv.top/1/api.php?id=%E6%97%A5%E5%96%80%E5%88%99%E8%97%8F%E8%AF%AD%E7%BB%BC%E5%90%88&auth=666858
