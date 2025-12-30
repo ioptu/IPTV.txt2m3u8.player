@@ -31,8 +31,8 @@ jobs:
           python ./scripts/extract.py --input t2m_output.m3u --output t1op.m3u --eoru ',lnott'
           python ./scripts/deduplicate.py -i t1op.m3u -o t1output.m3u
 
-          #python ./scripts/extract.py --input t2m_output.m3u --output t2op.m3u --eoru ',huuc'
-          #python ./scripts/deduplicate.py -i t2op.m3u -o t2output.m3u
+          python ./scripts/extract.py --input t2m_output.m3u --output t2op.m3u --eoru ',huuc'
+          python ./scripts/deduplicate.py -i t2op.m3u -o t2output.m3u
 
           wget https://raw.githubusercontent.com/lwzlinyi/ziyong/refs/heads/main/live2.m3u -O live2.m3u  -t 2 --waitretry=5
           python ./scripts/extract.py --input live2.m3u --output t2op.m3u --eoru ',huuc'
@@ -46,8 +46,6 @@ jobs:
           python ./scripts/url_sorter.py -i tv1op_merged.m3u -o tv1op_ms.m3u -k 'HD&auth=666858,auth=66615415'
 
           wget https://github.com/iTCoffe/Collect-iTV/raw/refs/heads/main/LiTV.m3u -O tv2.m3u  -t 2 --waitretry=5
-          python ./scripts/extract.py --input tv2.m3u --output t2op.m3u --eoru ',huuc.edu'
-          python ./scripts/deduplicate.py -i t2op.m3u -o t2output.m3u
           python ./scripts/extract.py --input tv2.m3u --output tv2op.m3u --eoru ',wmviv.com'
           python ./scripts/deduplicate.py -i tv2op.m3u -o tv2output.m3u
 
