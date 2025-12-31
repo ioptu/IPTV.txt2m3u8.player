@@ -16,8 +16,8 @@ jobs:
       run: |
           pip install requests 
 
-          #wget https://github.com/ls125781003/tvboxtg/raw/refs/heads/main/%E7%8E%8B%E4%BA%8C%E5%B0%8F/lives/%E5%86%B0%E8%8C%B6.txt -O bc.m3u  -t 2 --waitretry=5
-          #python ./scripts/extract.py --input bc.m3u --output test.m3u --eandu '上海,sh'
+          wget https://github.com/ls125781003/tvboxtg/raw/refs/heads/main/%E7%8E%8B%E4%BA%8C%E5%B0%8F/lives/%E5%86%B0%E8%8C%B6.txt -O bc.m3u  -t 2 --waitretry=5
+          python ./scripts/extract.py --input bc.m3u --output test.m3u --eandu '上海,sh'
 
           wget https://github.com/5iClub/migu_video/raw/refs/heads/main/migu.txt -O migu.m3u  -t 2 --waitretry=5
           python ./scripts/m3u_mergerng.py -i migu.m3u -o mg_m.m3u
@@ -58,7 +58,7 @@ jobs:
         cd "$REPO_NAME" || exit 1  # 强制失败时退出
 
         # 后续操作...
-        #mv ../test.m3u ./test.m3u
+        mv ../test.m3u ./test.m3u
         mv ../mg_merged.m3u ./migu_merged.m3u
         mv ../t1output.m3u ./huuc_ipv6.m3u
         mv ../t2output.m3u ./sh.lnott.top.m3u
