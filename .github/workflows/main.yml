@@ -18,7 +18,8 @@ jobs:
 
 
           wget https://github.com/5iClub/migu_video/raw/refs/heads/main/migu.txt -O migu.m3u  -t 2 --waitretry=5
-          python ./scripts/m3u_mergerng.py -i migu.m3u -o mg_merged.m3u
+          python ./scripts/m3u_mergerng.py -i migu.m3u -o mg_m.m3u
+          python ./scripts/m3u_merger.py -i mg_m.m3u -o mg_merged.m3u
           
           wget https://raw.githubusercontent.com/lwzlinyi/ziyong/refs/heads/main/live2.m3u -O live2.m3u  -t 2 --waitretry=5
           python ./scripts/extract.py --input live2.m3u --output t1op.m3u --eoru ',huuc'
