@@ -36,8 +36,15 @@ jobs:
           python ./scripts/extract.py --input 1.m3u --output t2op.m3u --eoru ',lnott' -n
           python ./scripts/deduplicate.py -i t2op.m3u -o t2output.m3u
 
+          #wget https://github.com/xiaoran29/core/raw/refs/heads/main/output/lite.m3u -O lite.m3u  -t 2 --waitretry=5
+          #python ./scripts/extract.py --input lite.m3u --output t3op.m3u --eoru ',qqqtv' -n
+          #python ./scripts/m3u_merger.py -i t3op.m3u -o t3op_merged.m3u
+          #python ./scripts/url_sorter.py -i t3op_merged.m3u -o t3op_ms.m3u -k 'HD&auth=666858,auth=66615415'
+
+          #临时措施，目标直播源修正了频道名错误后应恢复使用以上注释代码块
           wget https://github.com/xiaoran29/core/raw/refs/heads/main/output/lite.m3u -O lite.m3u  -t 2 --waitretry=5
-          python ./scripts/extract.py --input lite.m3u --output t3op.m3u --eoru ',qqqtv' -n        
+          python ./scripts/extract.py --input lite.m3u --output t3o.m3u --eoru ',qqqtv' -n
+          python ./scripts/url_sorter.py -i t3o.m3u -o t3op.m3u -k "CCTV-5%2B" -ch "CCTV5" -rn "CCTV5+" 
           python ./scripts/m3u_merger.py -i t3op.m3u -o t3op_merged.m3u
           python ./scripts/url_sorter.py -i t3op_merged.m3u -o t3op_ms.m3u -k 'HD&auth=666858,auth=66615415'
 
