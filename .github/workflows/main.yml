@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write  # 允许推送代码
     env:
-      ONLY_UPDATE_MIGU: true
+      ONLY_UPDATE_MIGU: true  # 在这里修改：true 表示只更新 migu_merged.m3u，false 表示更新所有文件
     steps: 
     - name: Checkout code
       uses: actions/checkout@v5
