@@ -74,7 +74,13 @@ jobs:
             python ./scripts/m3u_merger.py -i  t3op2_ms.m3u mg_m.m3u huuc_ipv6.m3u sh.lnott.top.m3u php.jdshipin.com_merged.m3u -o t0op_m.m3u
             python ./scripts/url_sorter.py -i t0op_m.m3u -o t0op_ms.m3u -k "catvod,luuc,miguvideo"
             python ./scripts/url_sorter.py -i t0op_ms.m3u -o t0op_ms.m3u -k "CCTV-" -r
+
+            python ./scripts/url_sorter.py -i t0op_m.m3u -o  ttvop_m.m3u -gr "央视" -rg"央视"
+            python ./scripts/url_sorter.py -i ttvop_m.m3u -o  ttvop_m.m3u -gr "卫视" -rg"央视"
+            python ./scripts/url_sorter.py -i ttvop_m.m3u -o  ttvop_ms.m3u -k "catvod,luuc,miguvideo"
+            python ./scripts/url_sorter.py -i ttvop_ms.m3u -o  ttvop_ms.m3u -k "CCTV-" -r
             
+
           fi
           
     - name: CommitAndPush
@@ -107,6 +113,7 @@ jobs:
           mv ../t3op2.m3u ./catvod.com.m3u
           mv ../t3op2_ms.m3u ./catvod.com_merged.m3u
           mv ../t0op_ms.m3u ./tv_merged.m3u
+          mv ../ttvop_ms.m3u ./ttv_merged.m3u
         fi
 
         git add .
