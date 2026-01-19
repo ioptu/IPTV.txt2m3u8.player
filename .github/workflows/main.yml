@@ -66,8 +66,8 @@ jobs:
             python ./scripts/extract.py --input t4op.m3u --output tv4output.m3u --eoru ',cdn6.101.qzz.io' -n
             #python ./scripts/m3u_merger.py -i tv4output.m3u -o tv4output_merged.m3u
             
-    - name: Process 101.qzz.io Files
-      if: env.ONLY_UPDATE_MIGU != 'true'
+    - name: Process 港澳频道 Files
+      if: env.ONLY_UPDATE_MIGU != 'false'
       continue-on-error: true
       run: |
             #无需频繁更新
