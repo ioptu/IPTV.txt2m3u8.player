@@ -21,7 +21,7 @@ jobs:
     - name: Install Dependencies
       run: pip install requests
 
-    # --- 块1: Migu 处理---
+    # ---  Migu 处理---
     - name: Process Migu Files
       continue-on-error: true     # 即使失败也会继续执行后续块 
       run: |
@@ -35,7 +35,16 @@ jobs:
         #python ./scripts/url_sorter.py -i mig_d.m3u -o mig_d.m3u -k "http" -ch "CCTV5+" -rn "CCTV5+"
         #python ./scripts/add_channel.py -i mig_d.m3u -o mig_d.m3u -a "搜狐剧场,https://hdl-vip-ws.qf.56.com/live/lc_11730.flv"
         
-    # --- 块2: huuc 源处理  ---
+    # --- httop 源处理  ---
+    - name: Process httop Files
+      if: env.ONLY_UPDATE_MIGU != 'true'    
+      continue-on-error: true
+      run: |
+            wget https://httop.top/hotel.m3u -O httop.m3u  -t 2 --waitretry=5
+            python ./scripts/m3u_merger.py -i httop.m3u -o httop_merged.m3u
+
+
+    # ---  huuc 源处理  ---
     - name: Process luuc Files
       if: env.ONLY_UPDATE_MIGU != 'false'    
       continue-on-error: true
@@ -43,9 +52,9 @@ jobs:
             #无需频繁更新
             wget https://raw.githubusercontent.com/lwzlinyi/ziyong/refs/heads/main/live2.m3u -O live2.m3u  -t 2 --waitretry=5
             python ./scripts/extract.py --input live2.m3u --output t1op.m3u --eoru ',huuc' -n
-            python ./scripts/deduplicate.py -i t1op.m3u -o t1output.m3u
-
-    # --- 块3: lnott 源处理  ---
+            python ./scripts/deduplicate.py -i t1op.m3u -o t1output.m3u 
+            
+    # ---  lnott 源处理  ---
     - name: Process lnott Files
       if: env.ONLY_UPDATE_MIGU != 'false'
       continue-on-error: true
@@ -56,7 +65,7 @@ jobs:
             python ./scripts/extract.py --input 1.m3u --output t2op.m3u --eoru ',lnott' -n
             python ./scripts/deduplicate.py -i t2op.m3u -o t2output.m3u
 
-    # --- 块4: 101.qzz.io 源处理  ---
+    # ---  101.qzz.io 源处理  ---
     - name: Process 101.qzz.io Files
       if: env.ONLY_UPDATE_MIGU != 'false'
       continue-on-error: true
@@ -67,6 +76,7 @@ jobs:
             python ./scripts/extract.py --input t4op.m3u --output tv4output.m3u --eoru ',cdn6.101.qzz.io' -n
             #python ./scripts/m3u_merger.py -i tv4output.m3u -o tv4output_merged.m3u
             
+    # --- ---       
     - name: Process 港澳频道 Files
       if: env.ONLY_UPDATE_MIGU != 'false'
       continue-on-error: true
@@ -76,7 +86,7 @@ jobs:
             node ./scripts/txt2m3u.js -i hm.txt -o tv5op.m3u
             python ./scripts/m3u_merger.py -i tv5op.m3u -o tv5op_merged.m3u
             
-    # --- 块5: qqqtv 源处理  ---
+    # --- qqqtv 源处理  ---
     - name: Process Lite Files
       if: env.ONLY_UPDATE_MIGU != 'false'
       continue-on-error: true
@@ -100,7 +110,7 @@ jobs:
             #python ./scripts/url_sorter.py -i qtvop_merged.m3u -o qtvop_ms.m3u -k 'HD&auth=666858,auth=66615415'
         
 
-    # --- 块6: Catvod 处理 ---
+    # --- Catvod 处理 ---
     - name: Process Catvod Files
       if: env.ONLY_UPDATE_MIGU != 'false'
       continue-on-error: true
@@ -110,7 +120,7 @@ jobs:
         python ./scripts/m3u_merger.py -i t3op2.m3u -o t3op2_merged.m3u
         python ./scripts/url_sorter.py -i t3op2_merged.m3u -o t3op2_ms.m3u -k 'CCTV-' -r
         
-    # --- 块7: 汇总处理 ---
+    # ---  汇总处理 ---
     - name: Final Merge 1
       if: env.ONLY_UPDATE_MIGU != 'false'
       continue-on-error: true
@@ -131,7 +141,7 @@ jobs:
         python ./scripts/url_sorter.py -i ttvop_ms.m3u -o ttvop_ms.m3u -k "CCTV-" -r 
         python ./scripts/m3u_header_tool.py -i ttvop_ms.m3u -c -E "https://gh-proxy.org/github.com/ioptu/migu_video/raw/refs/heads/main/e.xml"
 
-    # --- 块8: 提交推送 (这个步骤不建议加 continue-on-error，因为它是最终目标) ---
+    # ---  提交推送 (这个步骤不建议加 continue-on-error，因为它是最终目标) ---
     - name: CommitAndPush
       run: |
         REPO_NAME="${GITHUB_REPOSITORY#*/}"
@@ -159,6 +169,8 @@ jobs:
           [ -f ../ttvop_ms.m3u ] && mv ../ttvop_ms.m3u ./ttv_merged.m3u || true
           [ -f ../tv5op.m3u ] && mv ../tv5op.m3u ./港澳.m3u || true
           [ -f ../tv5op_merged.m3u ] && mv ../tv5op_merged.m3u ./港澳_merged.m3u || true
+          [ -f ../httop.m3u ] && mv ../httop.m3u ./httop.m3u || true
+          [ -f ../httop_merged.m3u ] && mv ../httop_merged.m3u ./httop_merged.m3u || true          
         fi
 
         git add .
