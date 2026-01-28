@@ -54,6 +54,7 @@ jobs:
             python ./scripts/extract.py --input gop.m3u --output gop.m3u --eoru '更新时间,' -n -r
             python ./scripts/url_sorter.py -i gop.m3u -o gop.m3u -k "cctv5p" -ch "CCTV" -rn "CCTV5+" 
             python ./scripts/add_channel.py -i gop.m3u -o gop.m3u -r -a "五星体育,http://38.75.136.137:98/gslb/dsdqpub/wxtyhd.m3u8?auth=testpub;天津体育,http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub"
+            python ./scripts/deduplicate.py -i gop.m3u -o gop.m3u
             python ./scripts/m3u_merger.py -i gop.m3u -o gop_merged.m3u
 
     # ---  huuc 源处理  ---
