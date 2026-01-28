@@ -44,6 +44,14 @@ jobs:
             python ./scripts/m3u_merger.py -i hp.m3u -o hp_merged.m3u
             python ./scripts/url_sortergr.py -i hp_merged.m3u -o hp_merged.m3u -gr '央视,卫视,其它' -gs
 
+    # --- guovin 源处理  ---
+    - name: Process guovin Files
+      if: env.ONLY_UPDATE_MIGU != 'true'    
+      continue-on-error: true
+      run: |
+            wget https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/gd/output/result.m3u -O gop.m3u  -t 2 --waitretry=5
+            python ./scripts/extract.py --input gop.m3u --output gop.m3u --eoru ',//38.75.136.137' -n
+            python ./scripts/m3u_merger.py -i gop.m3u -o gop_merged.m3u
 
     # ---  huuc 源处理  ---
     - name: Process luuc Files
@@ -171,7 +179,9 @@ jobs:
           [ -f ../tv5op.m3u ] && mv ../tv5op.m3u ./港澳.m3u || true
           [ -f ../tv5op_merged.m3u ] && mv ../tv5op_merged.m3u ./港澳_merged.m3u || true
           [ -f ../hp.m3u ] && mv ../hp.m3u ./httop.m3u || true
-          [ -f ../hp_merged.m3u ] && mv ../hp_merged.m3u ./httop_merged.m3u || true          
+          [ -f ../hp_merged.m3u ] && mv ../hp_merged.m3u ./httop_merged.m3u || true 
+          [ -f ../gop.m3u ] && mv ../gop.m3u ./iptv.m3u || true
+          [ -f ../gop_merged.m3u ] && mv ../gop_merged.m3u ./iptv_merged.m3u || true           
         fi
 
         git add .
